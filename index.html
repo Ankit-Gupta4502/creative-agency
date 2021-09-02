@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <title>Agency</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Creative Agency</div>
+        <div class="toggle"></div>
+        <div class="navigation">
+            <ul>
+                <li> <a href="#">Home</a></li>
+                 <li> <a href="/Work.html">Work</a></li>
+                <li> <a href="/services.html">Services</a></li>
+                <li> <a href="/contact.html">Contact</a></li>
+            </ul>
+           <div class="social-bar">
+               <ul>
+              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a href=""><i class="fab fa-instagram"></i></a></li>
+               <li><a href=""><i class="fab fa-twitter"></i></a></li>
+               </ul>
+           </div>
+        </div>
+    </header>
+    <section>
+        <img src="images/home-img.jpg" class="home-image" alt="">
+        <div class="home-content">
+        <h1>We help to achieve your Goals</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis expedita commodi dolor rerum perferendis? Explicabo nulla assumenda commodi nostrum maxime odit, at magnam eaque recusandae eos in. Consectetur, eveniet explicabo?</p>
+        <a href="" class="btn">Get Started</a>
+    </div>
+    </section>
+</body>
+<script defer src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" integrity="sha384-vuFJ2JiSdUpXLKGK+tDteQZBqNlMwAjhZ3TvPaDfN9QmbPb7Q8qUpbSNapQev3YF" crossorigin="anonymous">
+</script>
+<script>
+const toggle = document.querySelector('.toggle')
+const nav  = document.querySelector('.navigation')
+toggle.addEventListener('click',()=>{
+    toggle.classList.toggle('active')
+    nav.classList.toggle('active')
+})
+
+</script>
+
+</html>
